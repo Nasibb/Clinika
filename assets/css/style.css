@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    padding: 0 3rem;
+}
+
+.header-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+.header-all .logo {
+    width: 15%;
+}
+
+.header-all .logo img {
+    width: 100%;
+}
+
+.header-all nav {
+    width: 70%;
+    text-align: center;
+}
+
+.header-all nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.header-all .appointment {
+    width: 15%;
+}
+
+.header-all .appointment a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+    padding: 15px 35px;
+    border-radius: 25px;
+}
+
+#thermo {
+    background-image: url(../images/Thermo_slide1.jpg_id=22308);
+    /* background: no-repeat; */
+    position: relative;
+}
+
+.thermo-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.thermo-all .thermo-info {
+    width: 45%;
+}
+
+.thermo-all .thermo-info h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.thermo-all .thermo-info p {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.thermo-all .thermo-info a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(0, 107, 166);
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
+.thermo-all .thermo-image {
+    width: 55%;
+    position: relative;
+}
+
+.thermo-img-footer {
+    width: 100%;
+    position: absolute;
+    transform: rotate(180deg);
+    bottom: 0px;
+    right: 0px;
+    z-index: 999;
+}
+
+.thermo-all .thermo-image img {
+    width: 100%;
+}
+
+.product-title {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.container .products-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products-all .box-header {
+    position: relative;
+}
+
+.products-all .box {
+    width: 32%;
+    margin-bottom: 20px;
+
+}
+
+.products-all .box img {
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 15px 15px 0 0;
+}
+
+.products-all .box .box-footer {
+    background-color: #f2f2f2;
+    border-radius: 0 0 15px 15px;
+    padding: 10px 30px;
+}
+
+.products-all .box .box-footer h3 {
+    margin-bottom: 15px;
+}
+
+.products-all .box .box-footer .box-footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-all .box-header .box-icons {
+    width: 40px;
+    height: 120px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#quality {
+    background-image: url(/assets/images/Thermo_banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    position: relative;
+}
+
+.thermo-quality {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.quality-info h1 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.quality-info span {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.quality-button-a {
+    color: rgb(3, 3, 71);
+    background-color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
